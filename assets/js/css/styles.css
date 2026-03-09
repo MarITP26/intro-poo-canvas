@@ -1,0 +1,41 @@
+body{
+background: linear-gradient(135deg,#f5f7fa,#e4ecf5);
+min-height:100vh;
+display:flex;
+flex-direction:column;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Canvas */
+canvas{
+border-radius:10px;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+background:white;
+max-width:100%;
+height:auto;
+}
+
+/* Tarjetas */
+.card{
+border-radius:15px;
+}
+
+/* Navbar */
+.navbar-brand{
+letter-spacing:1px;
+font-size:20px;
+}
+
+/* Imágenes referencia */
+img{
+transition:transform .3s;
+}
+
+img:hover{
+transform:scale(1.05);
+}
+
+/* Footer abajo */
+footer{
+margin-top:auto;
+}
